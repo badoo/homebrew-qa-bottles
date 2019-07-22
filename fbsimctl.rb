@@ -3,7 +3,7 @@ class Fbsimctl < Formula
   homepage "https://github.com/badoo/FBSimulatorControl"
   url "https://github.com/badoo/FBSimulatorControl/archive/08451d7.tar.gz"
   sha256 "2c650fd17664fb576c450c7b55c49832b19c9faf689d175aa524142b2d0a8b2c"
-  head "https://github.com/badoo/FBSimulatorControl.git"
+  head "https://github.com/badoo/FBSimulatorControl.git", branch: "badoo"
   version "HEAD-dc9d279"
 
   bottle do
