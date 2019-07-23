@@ -4,13 +4,13 @@ class Fbsimctl < Formula
   url "https://github.com/badoo/FBSimulatorControl/archive/08451d7.tar.gz"
   sha256 "2c650fd17664fb576c450c7b55c49832b19c9faf689d175aa524142b2d0a8b2c"
   head "https://github.com/badoo/FBSimulatorControl.git", branch: "badoo"
-  version "HEAD-dc9d279"
+  version "HEAD-08451d77"
 
   bottle do
     root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
-    rebuild 6
+    rebuild 1
     cellar :any_skip_relocation
-    sha256 "63f6221d39017f74cdcb65daaf095093862db017085e75966eeaaf02bce36af7" => :mojave
+    sha256 "04f9d3bd8563d0e444f068f08106bfb06cc7e872bb1b97011192de920fa51168" => :mojave
   end
 
   depends_on "carthage"
