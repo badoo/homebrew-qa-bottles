@@ -11,6 +11,7 @@ class Python < Formula
       rebuild 1
       cellar :any
       sha256 "4b86939dd5312fb0aa43eeb279e939dd4898930dc38a31b1bfbaca9c2ee6f0a0" => :mojave
+      sha256 "4b86939dd5312fb0aa43eeb279e939dd4898930dc38a31b1bfbaca9c2ee6f0a0" => :high_sierra
     end
   
     # setuptools remembers the build flags python is built with and uses them to

@@ -11,6 +11,7 @@ class Fbsimctl < Formula
     rebuild 1
     cellar :any_skip_relocation
     sha256 "04f9d3bd8563d0e444f068f08106bfb06cc7e872bb1b97011192de920fa51168" => :mojave
+    sha256 "04f9d3bd8563d0e444f068f08106bfb06cc7e872bb1b97011192de920fa51168" => :high_sierra
   end
 
   depends_on "carthage"
