@@ -14,7 +14,7 @@ class Fbsimctl < Formula
   end
 
   depends_on "carthage"
-  depends_on :xcode => ["10.0", :build]
+  depends_on :xcode => ["9.4.0", :build]
 
   def install
     system "./build.sh", "fbsimctl", "build", prefix
