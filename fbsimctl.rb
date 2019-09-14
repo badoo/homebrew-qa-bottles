@@ -7,7 +7,6 @@ class Fbsimctl < Formula
   version "HEAD-e5fbeb7"
 
   bottle do
-    rebuild 3
     root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     cellar :any_skip_relocation
     sha256 "eab2a8ca01c5f68ef5daf6b37a9cad97d9a64b252dafaadb9c5c253e07823b97" => :catalina
