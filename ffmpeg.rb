@@ -11,6 +11,7 @@ class Ffmpeg < Formula
       root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
       cellar :any
       rebuild 1
+      sha256 "b41d6fedd60dbc1e406b01350cebe64f402e2d92945bcc7474c2f4b1838fab0f" => :catalina
       sha256 "b41d6fedd60dbc1e406b01350cebe64f402e2d92945bcc7474c2f4b1838fab0f" => :mojave
       sha256 "b41d6fedd60dbc1e406b01350cebe64f402e2d92945bcc7474c2f4b1838fab0f" => :high_sierra
     end

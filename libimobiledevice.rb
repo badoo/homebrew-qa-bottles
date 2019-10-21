@@ -9,6 +9,7 @@ class Libimobiledevice < Formula
   bottle do
     root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     cellar :any
+    sha256 "8e253191b12dda7d771558c102e97f0970b856a98c788ef0accf9168c4230507" => :catalina
     sha256 "8e253191b12dda7d771558c102e97f0970b856a98c788ef0accf9168c4230507" => :mojave
     sha256 "8e253191b12dda7d771558c102e97f0970b856a98c788ef0accf9168c4230507" => :high_sierra
   end

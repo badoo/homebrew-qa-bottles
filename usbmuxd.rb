@@ -18,6 +18,7 @@ class Usbmuxd < Formula
   bottle do
     root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     cellar :any
+    sha256 "09fa606479b1e7b2b98d29f6a84db7442b17cf189ca9203497e3960d21875124" => :catalina
     sha256 "09fa606479b1e7b2b98d29f6a84db7442b17cf189ca9203497e3960d21875124" => :mojave
     sha256 "09fa606479b1e7b2b98d29f6a84db7442b17cf189ca9203497e3960d21875124" => :high_sierra
   end
