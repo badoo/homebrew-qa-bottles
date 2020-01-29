@@ -21,6 +21,7 @@ class Libimobiledevice < Formula
   end
 
   bottle do
+    root_url "https://homebrew.bintray.com/bottles"
     cellar :any
     sha256 "27409d27b5532a572a4a8eeec891e1cce92bc0afa423528eae94543f22aa72aa" => :catalina
     sha256 "672ac6aaf5656e07add1b5da7c3a30c0655ce2b9efff957faa34855ed34d9dde" => :mojave
