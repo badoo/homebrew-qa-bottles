@@ -8,6 +8,7 @@ class Libusbmuxd < Formula
   end
 
   bottle do
+    root_url "https://homebrew.bintray.com/bottles"
     cellar :any
     sha256 "082a3ef816c55324d9c8c51917b155403211284940b10e822d87cac91991ec0b" => :catalina
     sha256 "d6d7639277e5590b24713cad79e12c7b9dbb373c6ecf76c97a007041b5307fe2" => :mojave
