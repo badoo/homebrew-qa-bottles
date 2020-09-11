@@ -1,17 +1,16 @@
 class Fbsimctl < Formula
   desc "A Powerful Command Line tool for automating iOS Simulators"
   homepage "https://github.com/badoo/FBSimulatorControl"
-  url "https://codeload.github.com/badoo/FBSimulatorControl/tar.gz/366de1f"
-  sha256 "5e328886417c5b517e68331fdd459add30157a2d7e59b0bf32ca9c02123f52e7"
+  url "https://github.com/badoo/FBSimulatorControl/archive/11f6722.tar.gz"
+  sha256 "e4ffdaf75342555b2257e04d08339b1e772199845aab80e8808c28a8982aa1b8"
   head "https://github.com/badoo/FBSimulatorControl.git", branch: "badoo"
-  version "HEAD-366de1f"
+  version "HEAD-11f6722"
 
   bottle do
     root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     cellar :any_skip_relocation
-    sha256 "7df249564838613032ca65859364733c926afda0a9eb4e7f9c9d87dc4b9830fa" => :catalina
-    sha256 "7df249564838613032ca65859364733c926afda0a9eb4e7f9c9d87dc4b9830fa" => :mojave
-    sha256 "7df249564838613032ca65859364733c926afda0a9eb4e7f9c9d87dc4b9830fa" => :big_sur
+    sha256 "2ae646a699e0cd7c613477e1da11428ef17cb1de1a732377d37b3f6b610fee83" => :catalina
+    sha256 "2ae646a699e0cd7c613477e1da11428ef17cb1de1a732377d37b3f6b610fee83" => :big_sur
   end
 
   depends_on "carthage"
