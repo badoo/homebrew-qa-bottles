@@ -13,11 +13,8 @@ class Fbsimctl < Formula
     sha256 "f1bb86190d45845c7c4ab3ca8d683a53f70b3a8c60f34cab955d353903e6943d" => :big_sur
   end
 
-  depends_on "carthage"
-  depends_on :xcode => ["10.0", :build]
-
   def install
-    system "./build.sh", "fbsimctl", "build", prefix
+    fail("local builds are unsupported")
   end
 
   pour_bottle? do
