@@ -11,6 +11,7 @@ class Fbsimctl < Formula
     cellar :any_skip_relocation
     sha256 "f1bb86190d45845c7c4ab3ca8d683a53f70b3a8c60f34cab955d353903e6943d" => :catalina
     sha256 "f1bb86190d45845c7c4ab3ca8d683a53f70b3a8c60f34cab955d353903e6943d" => :big_sur
+    sha256 "f1bb86190d45845c7c4ab3ca8d683a53f70b3a8c60f34cab955d353903e6943d" => :mojave
   end
 
   def install
