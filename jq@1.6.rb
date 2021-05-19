@@ -1,3 +1,7 @@
+# typed: false
+# frozen_string_literal: true
+# brew install badoo/qa-bottles/jq@1.6
+# https://github.com/badoo/homebrew-qa-bottles/blob/master/jq@1.6.rb
 class JqAT16 < Formula
   desc "Lightweight and flexible command-line JSON processor"
   homepage "https://stedolan.github.io/jq/"
@@ -14,9 +18,9 @@ class JqAT16 < Formula
   bottle do
     root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     rebuild 3
-    sha256 cellar: :any, big_sur:  "c06b493c0b946d163a00121cc637bef5ed0b100ffce7d5a2bbf4916601b057a3"
-    sha256 cellar: :any, catalina: "c06b493c0b946d163a00121cc637bef5ed0b100ffce7d5a2bbf4916601b057a3"
-    sha256 cellar: :any, mojave:   "c06b493c0b946d163a00121cc637bef5ed0b100ffce7d5a2bbf4916601b057a3"
+    sha256 cellar: :any, big_sur:  "577a1de11c52d02fc8b7115af56095dd7c7e2fbf9e517fb5839c9436afb33dd8"
+    sha256 cellar: :any, catalina: "577a1de11c52d02fc8b7115af56095dd7c7e2fbf9e517fb5839c9436afb33dd8"
+    sha256 cellar: :any, mojave:   "577a1de11c52d02fc8b7115af56095dd7c7e2fbf9e517fb5839c9436afb33dd8"
   end
 
   pour_bottle? do
