@@ -10,6 +10,7 @@ class FilebeatAT8102 < Formula
   head "https://github.com/elastic/beats.git", branch: "master"
 
   bottle do
+    root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     sha256 cellar: :any_skip_relocation, arm64_ventura:  "78debcb5ddd3e87fb71a0a42ad98cd0ac5551002739d63e7763aa8e706c4f2f2"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "ce58a6062549c66e1bcf7936f799631098a01cf4272b7aa65c25b050dc4e6fae"
     sha256 cellar: :any_skip_relocation, arm64_big_sur:  "41cdaed5864fa3977a11298c0b8523e9a3ad596384703904c4cee3727655efb6"
